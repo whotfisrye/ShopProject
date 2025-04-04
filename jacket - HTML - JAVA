@@ -2,9 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacket Arrivals</title>
+    <title>The Modish Brand</title>
     <link rel="icon" type="image/png" href="TMJLOGOS.png">
-    <link rel="stylesheet" href="jacket.css">
+    <link rel="stylesheet" href="jacketdesign.css">
 </head> 
 <body>
     <div class="container">
@@ -19,34 +19,21 @@
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
-                <li class="dropdown">
+                <div class="dropdown">
                     <button class="dropbtn">Categories</button>
                     <div class="dropdown-content">
-                        <a href="#">Jacket</a>
-                        <a href="#">Pants Women</a>
-                        <a href="#">Pants Men</a>
-                        <a href="#">Polo Women</a>
-                        <a href="#">Polo Men</a>
-                        <a href="#">Polo-Shirt</a>
-                        <a href="#">Shirt Men</a>
-                        <a href="#">Skirt</a>
-                        <a href="#">Underwear Women</a>
-                        <a href="#">Underwear Men</a>
+                      <a href="jacket.html">Jacket</a>
+                      <a href="pantswomen.html">Pants Women</a>
+                      <a href="Pantsmen.html">Pants Men</a>
+                      <a href="Polowomen.html">Polo/Shirt Women</a>
+                      <a href="poloshirtmen.html">Polo/Shirt Men</a>
+                      <a href="#">Shirt Men</a>
+                      <a href="#">Skirt</a>
+                      <a href="#">Underwear Women</a>
+                      <a href="#">Underwear Men</a>
                     </div>
-                </li>
-                <li class="dropdown">
-                    <button class="dropbtn">New Arrivals</button>
-                    <div class="dropdown-content">
-                        <a href="jacket.html">Jacket</a>
-                        <a href="PantsW.html">Pants Women</a>
-                        <a href="PantsM.html">Pants Men</a>
-                        <a href="TopWomen.html">Women Tops</a>
-                        <a href="Polo.html">Polo Men</a>
-                        <a href="T-ShirtMen.html">Men T-Shirt</a>
-                        <a href="Panty.html">Underwear Women</a>
-                        <a href="brief.html">Underwear Men</a>
-                    </div>
-                </li>
+                 </div>
+                <li><a href="">New Arrivals</a></li>
             </ul>
         </nav>
     </div>
@@ -59,64 +46,257 @@
         </ul>
     </div>
 
-    <table border="0" align="center" width="10%" class="picture">
-        <tr>
-            <td>
-                <img src="jacket1model.avif" alt="Regular-Fit Textured Overshirt" width="300px" height="400px">
-                <h3 id="jacket1">Regular-Fit Textured Overshirt</h3>
-                <p id="php1">PHP 2,490</p>
-            </td>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="slideshow01.png" style="width:100%" height="70%">
+        <div class="text"></div>
+    </div>
+        
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+            <img src="slideshow02.png" style="width:100%" height="70%">
+        <div class="text"></div>
+    </div>
+        
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+            <img src="slideshow03.png" style="width:100%" height="70%">
+        <div class="text"></div>
+    </div>
 
-            <td>
-                <img src="jacket2model.avif" alt="Regular-Fit Twill Overshirt" width="300px" height="400px">
-                <h3 id="jacket2">Regular-Fit Twill Overshirt</h3>
-                <p id="php2">PHP 1,790</p>
-            </td>
-
-            <td>
-                <img src="jacket3model.avif" alt="Regular-Fit Linen-Blend Overshirt" width="300px" height="400px">
-                <h3 id="jacket3">Linen-Blend Overshirt</h3>
-                <p id="php3">PHP 2,500</p>
-            </td>
-
-            <td>
-                <img src="jacket4model.avif" alt="Loose Fit Crinkled overshirt" width="300px" height="400px">
-                <h3 id="jacket4">Loose Fit Crinkled overshirt</h3>
-                <p id="php4">PHP 1,790</p>
-            </td>
-        </tr>
-    </table>
-
-    <table border="0" align="center" width="10%" class="picture">
-        <tr>
-            <td>
-                <img src="jacket5model.avif" alt="Regular Fit Velvet overshirt" width="300px" height="400px">
-                <h3 id="jacket5">Regular Fit Velvet overshirt</h3>
-                <p id="php5">PHP 3,000</p>
-            </td>
-
-            <td>
-                <img src="jacket6model.avif" alt="Twill Overshirt" width="300px" height="400px">
-                <h3 id="jacket6">Twill Overshirt</h3>
-                <p id="php6">PHP 2,990</p>
-            </td>
-
-            <td>
-                <img src="jacket7model.avif" alt="Regular Fit Mid layer jacket" width="300px" height="400px">
-                <h3 id="jacket7">Regular Fit Mid layer jacket</h3>
-                <p id="php7">PHP 3,000</p>
-            </td>
-
-            <td>
-                <img src="jacket8model.avif" alt="Regular Fit Collared bomber jacket" width="300px" height="400px">
-                <h3 id="jacket8">Fit Collared bomber jacket</h3>
-                <p id="php8">PHP 3,000</p>
-            </td>
-
-        </tr>
-    </table>
+        <br>
+        
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+    </div>
     
-    <!-- JavaScript to toggle 'active' class -->
+    
+    <div class="responsive">
+        <div class="gallery">
+            <a href="jacket1.jpg" class="lightbox">
+                <img src="JACKECT01.jpg" alt="Brown" width="600" height="400">
+            </a>          
+          <div class="desc">Men's Hooded Jacket Brown</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket2.jpg" class="lightbox">
+            <img src="JACKET02.jpg" alt="Grey" width="600" height="400">
+          </a>
+          <div class="desc">Men's Hoodie Jacket Grey</div>
+        </div>
+    </div>
+      
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket3.jpg" class="lightbox">
+            <img src="JACKET03.jpg" alt="White" width="600" height="400">
+          </a>
+          <div class="desc">Men's Hooded Jacket White</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket4.jpg" class="lightbox">
+            <img src="JACKET04.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Men's Hoodie Jacket Navy Blue</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket5.jpg" class="lightbox">
+            <img src="JACKET05.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket6.jpg" class="lightbox">
+            <img src="JACKET06.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket7.jpg" class="lightbox">
+            <img src="JACKET07.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket8.jpg" class="lightbox">
+            <img src="JACKET08.jpg" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket9.webp" class="lightbox">
+            <img src="Jacket09.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket10.webp" class="lightbox">
+            <img src="Jacket010.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket11.webp" class="lightbox">
+            <img src="Jacket011.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket12.webp" class="lightbox">
+            <img src="Jacket012.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket13.webp" class="lightbox">
+            <img src="Jacket013.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket14.webp" class="lightbox">
+            <img src="Jacket014.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket15.webp" class="lightbox">
+            <img src="Jacket015.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket16.webp" class="lightbox">
+            <img src="Jacket016.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket17.webp" class="lightbox">
+            <img src="Jacket017.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket18.webp" class="lightbox">
+            <img src="Jacket018.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket19.webp" class="lightbox">
+            <img src="Jacket019.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket20.webp" class="lightbox">
+            <img src="Jacket020.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket21.webp" class="lightbox">
+            <img src="Jacket021.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket22.webp" class="lightbox">
+            <img src="Jacket022.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket23.webp" class="lightbox">
+            <img src="jacket023.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a href="Jacket24.webp" class="lightbox">
+            <img src="Jacket024.webp" alt="Blue" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="lightbox-overlay">
+        <span class="close-btn">&times;</span>
+        <img id="lightbox-img" src="">
+    </div>    
+
     <script>
         const links = document.querySelectorAll('nav ul li a, .right ul li a');
     
@@ -132,6 +312,52 @@
             });
         });
     </script>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
     
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+    <script>
+        const lightbox = document.querySelector('.lightbox-overlay');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const closeBtn = document.querySelector('.close-btn');
+
+        document.querySelectorAll('.lightbox').forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                lightbox.style.display = 'flex';
+                lightboxImg.src = this.href;
+            });
+        });
+
+        
+        closeBtn.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+        });
+
+        lightbox.addEventListener('click', (event) => {
+            if (event.target === lightbox) {
+                lightbox.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
